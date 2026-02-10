@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Validation | Responsible Consumption</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="global.css">
+ <!-- Header with navigation (from global template) -->
+     <!-- Header -->
+    <header>
+        <div class="wrapper">
+            <div class="header-content">
+                <div class="logo-section">
+                    <img src="E_PRINT_12.jpg" alt="EcoChoice Logo" class="logo">
+                    <div>
+                        <h2 class="site-title">EcoChoice</h2>
+                        <p class="site-subtitle">Responsible Consumption & Production</p>
+                    </div>
+                </div>
+                <nav>
+                    <ul class="nav-list">
+                        <li><a href="home.html" >Home</a></li>
+                        <li><a href="volunteer.html">Volunteer</a></li>
+                        <li><a href="table.html">Impact Data</a></li>
+                        <li><a href="profile.html">Profile</a></li>
+                        <li><a href="feedback.html">Feedback</a></li>
+                        <li><a href="sitemap.html">Sitemap</a></li>
+                        <li><a href="team.html">Team</a></li>
+                       
+                        
+                    
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <style>
+        .validation-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        h1 {
+            color: #2e7d32;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .validation-section {
+            margin: 30px 0;
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .validation-section h2 {
+            color: #1b5e20;
+            margin-top: 0;
+            border-bottom: 2px solid #c8e6c9;
+            padding-bottom: 10px;
+        }
+        
+        .validation-result {
+            display: flex;
+            align-items: center;
+            margin: 15px 0;
+            padding: 15px;
+            background: white;
+            border-radius: 5px;
+        }
+        
+        .validation-icon {
+            width: 50px;
+            height: 50px;
+            margin-right: 20px;
+            flex-shrink: 0;
+        }
+        
+        .validation-details {
+            flex-grow: 1;
+        }
+        
+        .validation-details h3 {
+            margin-top: 0;
+            margin-bottom: 5px;
+        }
+        
+        .validation-details p {
+            margin: 5px 0;
+            color: #555;
+        }
+        
+        .success {
+            border-left: 4px solid #4CAF50;
+        }
+        
+        .warning {
+            border-left: 4px solid #FFC107;
+        }
+        
+        .error {
+            border-left: 4px solid #F44336;
+        }
+        
+        .page-links {
+            margin-top: 30px;
+            text-align: center;
+        }
+        
+        .page-links a {
+            display: inline-block;
+            margin: 0 10px;
+            padding: 8px 15px;
+            background: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background 0.3s;
+        }
+        
+        .page-links a:hover {
+            background: #388E3C;
+        }
+        
+        @media (max-width: 768px) {
+            .validation-result {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            
+            .validation-icon {
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Navigation bar will be inserted here by Student 2 -->
+    </header>
+    
+    <main class="feedback">
+        <h1>Website Validation Report</h1>
+        
+        <!-- feedback Validation -->
+        <section id="feedback-form" class="validation-section">
+            <h2>User feedback Validation</h2>
+            
+            <div class="validation-result success">
+                <img src="html.html.png" alt="Success icon" class="validation-icon">
+                <div class="validation-details">
+                    <h3>HTML Validation - Passed</h3>
+                    <p>feedback.html - No errors found</p>
+                    <p>Validated using <a href="https://validator.w3.org/" target="_blank">W3C CSS Validator</a> Validator</p>
+                    <p><a href="feedback.html" target="_blank">feedback Page</a></p>
+                </div>
+            </div>
+            
+            <div class="validation-result success">
+                <img src="" alt= "cssss.png" class="validation-icon">
+                <div class="validation-details">
+                    <h3>CSS Validation - Passed</h3>
+                    <p>feedback.css - No errors found</p>
+                    <p>Validated using <a href="https://validator.w3.org/" target="_blank">W3C CSS Validator</a> Validator</p>
+                </div>
+            </div>
+            
+            <div class="validation-result warning">
+                <img src="warning-icon.png" alt="Warning icon" class="validation-icon">
+                <div class="validation-details">
+                    <h3>Accessibility Check - Minor Issues</h3>
+                    <p>2 contrast warnings for light gray text</p>
+                    <p>Checked using WAVE Evaluation Tool</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- team Validation -->
+        <section id="team-validation" class="validation-section">
+            <h2>Team Page Validation</h2>
+            
+            <div class="validation-result success">
+                <img src="teamhtml.png" alt="Success icon" class="validation-icon">
+                <div class="validation-details">
+                    <h3>HTML Validation - Passed</h3>
+                    <p>team.html - No errors found</p>
+                    <p>Validated using<a href="https://validator.w3.org/" target="_blank">W3C CSS Validator</a> Validator</p>
+                    <p><a href="team.html" target="_blank">Team Page</a></p>
+                </div>
+            </div>
+            
+            <div class="validation-result success">
+                <img src="valid-icon.png" alt="Success icon" class="validation-icon">
+                <div class="validation-details">
+                    <h3>SVG Validation - Passed</h3>
+                    <p>All SVG elements properly structured</p>
+                    <p>Checked with SVG validator</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Content Page Validation -->
+        <section id="content-validation" class="validation-section">
+            <h2>Content Page Validation</h2>
+            
+            <div class="validation-result success">
+                <img src="contenthtml.png" alt="Success icon" class="validation-icon">
+                <div class="validation-details">
+                    <h3>HTML Validation - Passed</h3>
+                    <p>content_ST3.html - No errors found</p>
+                    <p>Validated using <a href="https://validator.w3.org/" target="_blank">W3C CSS Validator</a> Validator</p>
+                    <p><a href="content_ST3.html" target="_blank">View Content Page</a></p>
+                </div>
+            </div>
+            
+            <div class="validation-result success">
+                <img src="contenthtml.png" alt="Success icon" class="validation-icon">
+                <div class="validation-details">
+                    <h3>CSS Validation - Passed</h3>
+                    <p>content.css - No errors found</p>
+                    <p>Validated using <a href="https://validator.w3.org/" target="_blank">W3C CSS Validator</a> Validator</p>
+                </div>
+            </div>
+            
+            <div class="validation-result success">
+                <img src="valid-icon.png" alt="Success icon" class="validation-icon">
+                <div class="validation-details">
+                    <h3>Accessibility Check - Passed</h3>
+                    <p>All images have proper alt text</p>
+                    <p>Good heading structure and contrast</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Page Editor Validation -->
+        <section id="editor-validation" class="validation-section">
+            <h2>Page Editor Validation</h2>
+            
+            <div class="validation-result success">
+                <img src="contenthtml.png" alt="Success icon" class="validation-icon">
+                <div class="validation-details">
+                    <h3>HTML Validation - Passed</h3>
+                    <p>pageEditor_ST3.html - No errors found</p>
+                    <p>Validated using <a href="https://validator.w3.org/" target="_blank">W3C CSS Validator</a> Validator</p>
+                    <p><a href="pageEditor_ST3.html" target="_blank">View Editor Page</a></p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Reflection Section -->
+        <section class="validation-section">
+            <h2>Validation Process Reflection</h2>
+            
+            <div class="validation-result">
+                <img src="info-icon.png" alt="Information icon" class="validation-icon">
+                <div class="validation-details">
+                    <h3>Validation Experience</h3>
+                    <p>The validation process helped identify several areas for improvement in the website's code structure. Initially, there were some minor HTML syntax errors that were easily corrected. The validator tools were essential for ensuring compliance with web standards.</p>
+                    
+                    <h3>Lessons Learned</h3>
+                    <p>1. Always include alt text for images to improve accessibility</p>
+                    <p>2. Properly nest HTML elements to avoid validation errors</p>
+                    <p>3. Use semantic HTML5 elements for better structure</p>
+                    <p>4. Regularly validate during development to catch issues early</p>
+                </div>
+            </div>
+        </section>
+        
+        
+    </main>
+    
+</body>
+</html>
+<footer>
+   <div class="footer-container">
+        <!-- Left Side: Logo and Social Icons -->
+        <div class="footer-left">
+            <img src="sdgs_black.jpg" alt="Footer Logo" class="footer-logo">
+            <div class="social-icons">
+                <a href="https://www.facebook.com/SustDev" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com/SustDev" class="twitter"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.flickr.com/photos/sustdev/" class="flickr"><i class="fab fa-flickr"></i></a>
+                <a href="https://www.youtube.com/user/uncsd2012/featured" class="youtube"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+
+    <div class="footer-links">
+      <div class="footer-column">
+        <h4>Website Navigation</h4>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="volunteer.html">Volunteer</a></li>
+          <li><a href="table.html">Impact Data</a></li>
+          <li><a href="profile.html">Profile</a></li>
+          <li><a href="feedback.html">Feedback</a></li>
+          <li><a href="sitemap.html">Sitemap</a></li>
+          <li><a href="team.html">Team</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Policy & Terms</h4>
+        <ul>
+          <li><a href="https://www.globalgoals.org/terms-conditions/">Terms & Conditions</a></li>
+          <li><a href="https://www.globalgoals.org/privacy-policy/">Privacy Policy</a></li>
+          <li><a href="https://www.globalgoals.org/cookies/">Cookies</a></li>
+          <li><a href="https://www.globalgoals.org/anti-corruption/">Anti Corruption</a></li>
+          <li><a href="https://www.globalgoals.org/asset-licence/">Asset License</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Our Content</h4>
+        <ul>
+          <li><a href="content_ST1.html">Content 01</a></li>
+          <li><a href="content_ST2.html">Content 02</a></li>
+          <li><a href="content_ST3.html">Content 03</a></li>
+          <li><a href="content_ST4.html">Content 04</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Page Editors</h4>
+        <ul>
+          <li><a href="Page Editor ST3.html">Page Editor ST1</a></li>
+          <li><a href="Page Editor ST3.html">Page Editor ST2</a></li>
+          <li><a href="Page Editor ST3.html">Page Editor ST3</a></li>
+          <li><a href="Page Editor ST3.html">Page Editor ST4</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Copyright Section -->
+  <div class="footer-2">
+    <div class="copyright">
+      <p>&copy; Copyright <strong>United Nations.</strong> All rights Reserved.<br>
+      <strong>Design By G8 - Group9</strong></p>
+    </div>    
+  </div>
+</footer>

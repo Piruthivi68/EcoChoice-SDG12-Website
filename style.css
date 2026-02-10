@@ -1,0 +1,150 @@
+
+body {
+  background-color: #f1f9f5;
+  font-family: "Segoe UI", sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Main Container */
+.container {
+  max-width: 1200px; /* Expanded from 1000px */
+  margin: 40px auto;
+  padding: 40px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 0 25px rgba(0,0,0,0.15);
+}
+
+/* Form Title */
+.feedback-title {
+  text-align: center;
+  color: #2b8a65;
+  font-size: 2.5em; /* Larger title */
+  margin-bottom: 40px;
+}
+
+/* Form Sections */
+#feedback-form fieldset {
+  border: 2px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 30px;
+  margin-bottom: 40px;
+}
+
+#feedback-form legend {
+  padding: 0 20px;
+  font-weight: bold;
+  color: #2b8a65;
+  font-size: 1.5em; /* Larger legend */
+}
+
+/* Form Elements */
+#feedback-form label {
+  display: block;
+  margin-top: 20px;
+  font-size: 1.3em; /* Larger labels */
+  color: #333;
+}
+
+#feedback-form input,
+#feedback-form textarea,
+#feedback-form select {
+  width: 100%;
+  padding: 15px;
+  margin-top: 12px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 1.2em; /* Larger input text */
+}
+
+#feedback-form textarea {
+  height: 200px; /* Taller textarea */
+  resize: vertical;
+}
+
+/* Buttons */
+.buttons {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.buttons button {
+  padding: 15px 40px; /* Larger buttons */
+  margin: 0 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.3em; /* Larger button text */
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.buttons button[type="submit"] {
+  background-color: #2b8a65;
+  color: white;
+}
+
+.buttons button[type="reset"] {
+  background-color: #f44336;
+  color: white;
+}
+
+/* Rating Section */
+.rating {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 30px auto;
+}
+
+.rating span {
+  font-size: 36px; /* Larger emojis */
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+/* Team Page Styles (maintained from previous) */
+.team-title {
+  text-align: center;
+  color: #2b8a65;
+  font-size: 2.5em;
+  margin-bottom: 40px;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+/* Footer Styles (maintained) */
+footer {
+  margin-top: 60px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .container {
+    padding: 25px;
+    margin: 20px 15px;
+  }
+  
+  .feedback-title,
+  .team-title {
+    font-size: 2em;
+  }
+  
+  #feedback-form input,
+  #feedback-form textarea,
+  #feedback-form select {
+    padding: 12px;
+    font-size: 1.1em;
+  }
+  
+  .buttons button {
+    padding: 12px 30px;
+    font-size: 1.1em;
+  }
+}
